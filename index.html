@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 01</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="text/javascript" src="code.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <div id="logocaja">
+
+        <img src="imagenes/isotipo01.svg" width="70" alt="logotipo" id="logo">
+
+      </div>
+
+      <br><br><br><br><br>
+
+    </header>
+
+    <section class="home">
+      <section class="main">
+
+        <article class="articulo">
+
+          <div class="cajaTexto">
+
+            <div class="caja">
+              <textarea  id="mensaje" placeholder="Ingrese el texto aquí.  " autofocus></textarea>
+              <div id="alerta">
+                <span class="material-symbols-outlined">
+                  report
+                </span>
+                <h5 id="reglas">Solo letras minúsculas y sin acentos. </h5>
+              </div>
+              <div class="botones">
+
+                <button type="submit" onclick="click_encriptar(this)" id="boton_encriptar">Encriptar</button>
+                <button type="submit" onclick="click_deencriptar(this)" id="boton_desencriptar">Desencriptar</button>
+
+              </div>
+            </div>
+
+            <div class="caja">
+              <div class="resultado">
+                <p id="resultado"></p>
+                <button type="submit" onclick="copiar(this)" class="material-symbols-outlined" id="boton_copiar"> file_copy </button>
+              </div>
+            </div>
+
+          </div>
+
+        </article>
+
+      </section>
+      <aside class=""></aside>
+    </section>
+
+    <footer>
+    </footer>
+
+  </body>
+</html>

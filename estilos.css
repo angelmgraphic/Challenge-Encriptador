@@ -1,0 +1,381 @@
+
+
+body {
+  background-color: #f0f5f9;
+  color: #101820;
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px 50px;
+}
+
+header {
+  width: 100%;
+}
+
+#logo {
+  color: #333F48;
+  max-width: 40px;
+}
+
+#logocaja {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h1 {
+  color: #ffad00;
+  font-size: 50px;
+}
+
+
+
+
+.cajaTexto {
+  width: 80%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caja {
+  vertical-align: top;
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  height: 400px;
+  position: relative;
+}
+
+textarea {
+  background-color: #dde6ed;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: Montserrat;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 30px;
+  border: 0px;
+
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 400px;
+  max-height: 1800px;
+
+  box-shadow:
+   2.4px 2.3px 2.2px rgba(0, 0, 0, 0.026),
+   5.5px 5.2px 5.3px rgba(0, 0, 0, 0.034),
+   9.7px 9.3px 10px rgba(0, 0, 0, 0.04),
+   16.7px 16px 17.9px rgba(0, 0, 0, 0.045),
+   30.7px 29.4px 33.4px rgba(0, 0, 0, 0.052),
+   71px 68px 80px rgba(0, 0, 0, 0.07)
+  ;
+
+  resize: none;
+  outline: none;
+
+}
+
+
+
+#boton_copiar {
+  background-color: #dee6ed;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: 0px;
+  cursor: pointer;
+}
+
+#boton_copiar:hover{
+  background-color: #dee6ed;
+}
+
+
+.material-symbols-outlined {
+  background-color: #dee6ed;
+  color: #333F48;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.resultado {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 16px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #dee6ed;
+  padding: 30px;
+  top: 0;
+
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 400px;
+  max-height: 1800px;
+
+  box-shadow:
+   2.4px 2.3px 2.2px rgba(0, 0, 0, 0.026),
+   5.5px 5.2px 5.3px rgba(0, 0, 0, 0.034),
+   9.7px 9.3px 10px rgba(0, 0, 0, 0.04),
+   16.7px 16px 17.9px rgba(0, 0, 0, 0.045),
+   30.7px 29.4px 33.4px rgba(0, 0, 0, 0.052),
+   71px 68px 80px rgba(0, 0, 0, 0.07)
+  ;
+}
+
+.botones {
+  border-radius: 20px;
+  font-family: Montserrat;
+  float: left;
+  width: 50%;
+  height: 30%;
+  border: 0px;
+  border-radius: 5px;
+}
+
+#boton_encriptar {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  float: left;
+  background-color: #333F48;
+  width: 50%;
+  height: 50%;
+  border: 0px;
+
+  box-shadow:
+    2.4px 2.3px 2.2px rgba(0, 0, 0, 0.026),
+    5.5px 5.2px 5.3px rgba(0, 0, 0, 0.034),
+    9.7px 9.3px 10px rgba(0, 0, 0, 0.04),
+    16.7px 16px 17.9px rgba(0, 0, 0, 0.045),
+    30.7px 29.4px 33.4px rgba(0, 0, 0, 0.052),
+    71px 68px 80px rgba(0, 0, 0, 0.07)
+  ;
+
+  cursor: pointer;
+}
+
+#boton_encriptar:hover {
+  background-color: #37444e;
+
+}
+
+#boton_encriptar:active {
+  background-color: #4b545b;
+}
+
+#boton_desencriptar {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 15px;
+  color: #515c66;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  float: left;
+  background-color: #ffffff;
+  width: 50%;
+  height: 50%;
+  border: 0px;
+
+  box-shadow:
+    2.4px 2.3px 2.2px rgba(0, 0, 0, 0.026),
+    5.5px 5.2px 5.3px rgba(0, 0, 0, 0.034),
+    9.7px 9.3px 10px rgba(0, 0, 0, 0.04),
+    16.7px 16px 17.9px rgba(0, 0, 0, 0.045),
+    30.7px 29.4px 33.4px rgba(0, 0, 0, 0.052),
+    71px 68px 80px rgba(0, 0, 0, 0.07)
+  ;
+  cursor: pointer;
+}
+
+#boton_desencriptar:hover {
+  background-color: #ebf1f6;
+}
+
+#boton_desencriptar:active{
+  background-color: #d4dde4;
+}
+
+h5 {
+  font-size: 13px;
+  float: left;
+  color: #a3abb1;
+  margin-left: 5px;
+}
+
+#alerta {
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  color: #a3abb1;
+  float: left;
+  background-color: #ffffff;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+@media screen and (max-width: 1250px) {
+
+  #logocaja {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .botones {
+    width: 100%;
+    height: 30%;
+  }
+
+  #boton_desencriptar {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 85%;
+  }
+
+  #boton_encriptar {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 85%;
+  }
+
+  #alerta {
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+    height: 30px;
+    min-width: 400px;
+    max-width:100%;
+  }
+
+
+}
+
+@media screen and (max-width: 810px) {
+  body{
+      margin: 20px 5px;
+      margin-bottom: 800px;
+  }
+
+  #logocaja {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .botones {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10%;
+
+  }
+
+  #boton_desencriptar {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 85%;
+    height: 100%;
+  }
+
+  #boton_encriptar {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 85%;
+    height: 100%;
+  }
+
+  .cajaTexto {
+    width: 80%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .caja {
+    vertical-align: top;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  textarea {
+    border-radius: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 30px;
+    border: 0px;
+
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 400px;
+    max-height: 1800px;
+  }
+
+  .resultado {
+    border-radius: 20px;
+    font-size: 16px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px;
+    top: 0;
+
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 400px;
+    max-height: 1800px;
+  }
+
+  #alerta {
+
+    float: left;
+    width: 70%;
+    height: 5%;
+    min-width: 400px;
+    max-width:100%;
+    margin-bottom: 5px;
+  }
+
+  .material-symbols-outlined {
+    color: #a3abb1;
+    float: left;
+    background-color: #ffffff;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+  h5 {
+    float: left;
+    color: #a3abb1;
+    margin-left: 0px;
+  }
+
+  footer {
+    height: 300px;
+  }
+
+}
